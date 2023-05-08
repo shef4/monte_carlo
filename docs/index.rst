@@ -5,6 +5,9 @@
 
 Welcome to monte_carlo's documentation!
 =========================================================
+my_repo is a Python package designed to read in, perform analysis,
+and visualize molecular coordinates. The file formats `xyz` and `pdb` are
+currently supported.
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +15,6 @@ Welcome to monte_carlo's documentation!
 
    getting_started
    api
-
 
 
 Indices and tables
