@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 # https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
 [project]
 name = "monte_carlo"
-description = "A Python package for analyzing and canluation isinginbg model hamiltionains based on mont carlo metho["
+description = "A Python package for analyzing and canluation isinging model hamiltionains based on monte carlo method"
 dynamic = ["version"]
 readme = "README.md"
 authors = [
