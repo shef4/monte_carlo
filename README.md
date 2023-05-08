@@ -12,6 +12,8 @@ magnetization(spins): Calculates the magnetization of a spin configuration.
 
 A Python package for analyzing and calculation ising model hamiltains based on monte carlo method
 
+Documentation: https://monte-carlo.readthedocs.io/en/latest/index.html
+
 ### Copyright
 
 Copyright (c) 2023, Sefunmi Ashiru
