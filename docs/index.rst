@@ -5,16 +5,26 @@
 
 Welcome to monte_carlo's documentation!
 =========================================================
-my_repo is a Python package designed to read in, perform analysis,
-and visualize molecular coordinates. The file formats `xyz` and `pdb` are
-currently supported.
+This code provides three primary functions to work with spin configurations:
+
+spin_config(spin_string): Converts a string of spin configurations into a list of integers representing the spins.
+hamiltonian_energy_1d(coupling_const, spins): Calculates the Hamiltonian energy of a 1D spin configuration.
+magnetization(spins): Calculates the magnetization of a spin configuration.
+
+Introduction
+Requirements
+Installation
+Usage
+API documentation
+Contributing
+License
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   getting_started
-   api
+   end_user
+   developer
 
 
 Indices and tables
