@@ -3,26 +3,28 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to monte_carlo's documentation!
+monte_carlo's documentation!
 =========================================================
-.. _Index:
-   metropolis_monte_carlo()
-   BitString()
-   __init__()
-   __repr__()
-   __str__()
-   __getitem__()
-   initialize()
-   flip_site()
-   set_int_config()
-   get_magnetization()
-   set_config()
-   IsingHamiltonian()
-   __init__()
-   energy()
+Index:
+metropolis_monte_carlo Function
+
+BitString Class
+   __init__ Function
+   __repr__ Function
+   __str__ Function
+   __getitem__ Function
+   initialize Function
+   flip_site Function
+   set_int_config Function
+   get_magnetization Function
+   set_config Function
+
+IsingHamiltonian Class
+   __init__ Function
+   energy Function
 
 
-.. _README:
+README:
    This code provides a basic implementation of the Metropolis Monte Carlo algorithm
    for the Ising model. The code is written in Python and uses the NumPy library for 
    numerical computations. The main function metropolis_monte_carlo() takes a Hamiltonian 
