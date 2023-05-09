@@ -1,7 +1,7 @@
-"""A Python package for analyzing and canluation isinginbg model hamiltionains based on mont carlo metho["""
+"""A Python package for analyzing and calculation ising model hamiltians based on monte carlo method"""
 
 # Add imports here
-from .functions import *
+from .metropolis import *
+from .bitstring import *
+from .ising_hamiltonian import *
 
-
-#from ._version import __version__
