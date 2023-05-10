@@ -11,9 +11,6 @@ dependencies:
   - numpy
   - matplotlib
   - bitstring
-  - random
-  - sys
-  - copy
   - networkx
 
     # Testing
