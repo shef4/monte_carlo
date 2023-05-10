@@ -2,6 +2,26 @@ import numpy as np
 import random
 
 class BitString:
+    """
+    A class representing a binary string of length N.
+
+    Attributes:
+    - N (int): The length of the bitstring.
+    - pbc (bool): Whether the bitstring should be treated as a periodic boundary condition.
+    - n_dim (int): The total number of possible bitstrings of length N.
+    - config (numpy.ndarray): The binary array representing the current state of the bitstring.
+
+    Methods:
+    - __init__(self, N=10, pbc=True): Initializes a new BitString object.
+    - __repr__(self): Returns a string representation of the BitString object.
+    - __str__(self): Returns a string representation of the binary configuration of the bitstring.
+    - __getitem__(self, i): Returns the binary value at index i in the bitstring.
+    - initialize(self, M=0): Randomly initializes the bitstring with M non-zero values.
+    - flip_site(self, i): Flips the binary value at index i in the bitstring.
+    - set_int_config(self, int_index): Sets the configuration of the bitstring to the binary representation of int_index.
+    - get_magnetization(self): Calculates and returns the magnetization of the bitstring.
+    - set_config(self, conf): Sets the configuration of the bitstring to conf.
+    """
     def __init__(self, N=10, pbc=True):
         """
         Constructs a BitString object with the given length and periodic boundary condition.
