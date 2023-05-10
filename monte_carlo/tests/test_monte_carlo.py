@@ -9,8 +9,6 @@ import sys
 import random
 import numpy as np
 import copy as cp
-import matplotlib as mpl
-import monte_carlo
 import networkx as nx
 
 def test_monte_carlo_imported():
