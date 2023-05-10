@@ -2,7 +2,7 @@ monte_carlo
 ==============================
 [//]: # (Badges)
 [![GitHub Actions Build Status](https://github.com/shef4/monte_carlo/workflows/CI/badge.svg)](https://github.com/shef4/monte_carlo/actions?query=workflow%3ACI)
-[![codecov](https://app.codecov.io/gh/shef4/monte_carlo](https://codecov.io/gh/shef4/monte_carlo/branch/main)
+[![codecov](https://app.codecov.io/gh/shef4/monte_carlo](https://app.codecov.io/gh/shef4/monte_carlo/tree/main/monte_carlo)
 
 This code provides three primary functions to work with spin configurations:
 
